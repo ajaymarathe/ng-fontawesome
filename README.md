@@ -17,7 +17,7 @@ In your `styles.scss` file import font-awesome css
 ```
 
 ## Usage
-Import direct in your .vue file:
+Import direct in your .ts file:
 ```js
 
 //import your FontAwesomeComponent component
