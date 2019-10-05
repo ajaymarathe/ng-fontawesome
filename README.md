@@ -19,30 +19,31 @@ In your `styles.scss` file import font-awesome css
 ## Usage
 Import direct in your .ts file:
 ```js
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
 
-//import your FontAwesomeComponent component
-import { FontAwesomeComponent } from "ng-fontawesome-icon/src/app/font-awesome/font-awesome.component";
+//import NgFontawesomeModule from ng-fontawesome
+import { NgFontawesomeModule } from 'ng-fontawesome';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    //add font-awesome-component here
-    FontAwesomeComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    //import your NgFontawesomeModule here
+    NgFontawesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
 ```
 
-In your components html file:
+Then use wherever you want !! Goodluck:
 ```html
-  <ng-fontawesome icon="file" size="4" color="orange"></ng-fontawesome>
+  <ng-fontawesome icon="file" size="3" color="red"></ng-fontawesome>
 ```
 
 ## Note
