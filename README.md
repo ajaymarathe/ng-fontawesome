@@ -17,7 +17,7 @@ In your `styles.scss` file import font-awesome css
 ```
 
 ## Usage
-Import direct in your .ts file:
+Import direct in your app.module.ts file:
 ```js
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -48,11 +48,11 @@ Then use wherever you want !! Goodluck:
 
 ## Note
 [![vue-fontawesome](https://raw.githubusercontent.com/ajaymarathe/image-store/master/vue-fontawesome/img2.png)](https://github.com/ajaymarathe/vue-fontawesome)
-- add only name to icon, i.e `icon="file"`
-- no need to add full name like i.e `icon="fa fa-file"`
+- add only name to icon, e.g `icon="file"`
+- no need to add full name like e.g `icon="fa fa-file"`
 - **icon** - font-awesome icon name will find here [here](https://fontawesome.com/v4.7.0/icons/)
 - **size** - icon size in `rem`.
-- **color** - you can give any valid value `i.e red, yellow, #fffff, #ff0000.`
+- **color** - you can give any valid value `e.g red, yellow, #fffff, #ff0000.`
 
 ## Author
 
