@@ -1,6 +1,6 @@
 {
   "name": "ng-fontawesome-icon",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -57,7 +57,15 @@
     "url": "git+https://github.com/ajaymarathe/ng-fontawesome.git"
   },
   "keywords": [
-    "ng-fontawesome-icon", "fontawesome", "font-awesome-icons", "ng-icons", "angular-fontawesome", "ng4-fontawesome", "ng7-fontawesome", "ng8-fontawesome", "fontawesome-angular"
+    "ng-fontawesome-icon",
+    "fontawesome",
+    "font-awesome-icons",
+    "ng-icons",
+    "angular-fontawesome",
+    "ng4-fontawesome",
+    "ng7-fontawesome",
+    "ng8-fontawesome",
+    "fontawesome-angular"
   ],
   "author": "ajay marathe",
   "license": "MIT",
