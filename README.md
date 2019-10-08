@@ -17,6 +17,10 @@ In your `styles.scss` file import font-awesome css
 ```
 
 ## Usage
+
+### [Video Tutorials](https://youtu.be/lw0sVsk0m7k)
+
+
 Import direct in your `app.module.ts` file:
 ```js
 import { BrowserModule } from '@angular/platform-browser';
