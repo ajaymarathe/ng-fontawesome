@@ -1,7 +1,8 @@
 # ng-fontawesome
 🍺 Hi there, Font-awesome icons for Angular lovers &lt;3
 
-[![NPM](https://img.shields.io/npm/v/ng-fontawesome-icon.svg)](https://www.npmjs.com/package/ng-fontawesome-icon)  [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/ng-fontawesome-icon.svg)](https://www.npmjs.com/package/ng-fontawesome-icon)  [![NPM](https://img.shields.io/npm/dt/ng-fontawesome-icon.svg)](https://www.npmjs.com/package/ng-fontawesome-icon) 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Installation
 Using NPM:
