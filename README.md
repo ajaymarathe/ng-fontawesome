@@ -1,5 +1,5 @@
-# ng-fontawesome
-🍺 Hi there, Font-awesome icons for Angular lovers &lt;3
+# NG Fontawesome Icon
+🍺 NG Fontawesome Icon for Angular Lovers. Coded by [Bootcatch](http://bootcatch.com).
 
 ## Installation
 Using NPM:
