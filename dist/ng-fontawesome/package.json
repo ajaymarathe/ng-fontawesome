@@ -1,0 +1,21 @@
+{
+  "name": "ng-fontawesome",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/ng-fontawesome.umd.js",
+  "module": "fesm5/ng-fontawesome.js",
+  "es2015": "fesm2015/ng-fontawesome.js",
+  "esm5": "esm5/ng-fontawesome.js",
+  "esm2015": "esm2015/ng-fontawesome.js",
+  "fesm5": "fesm5/ng-fontawesome.js",
+  "fesm2015": "fesm2015/ng-fontawesome.js",
+  "typings": "ng-fontawesome.d.ts",
+  "metadata": "ng-fontawesome.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
