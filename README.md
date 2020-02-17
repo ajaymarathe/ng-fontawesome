@@ -47,7 +47,7 @@ export class AppModule { }
 
 Then use wherever you want !! Goodluck:
 ```html
-  <ng-fontawesome icon="file" size="3" color="red"></ng-fontawesome>
+  <ng-fontawesome icon="file" size="2" color="orange"></ng-fontawesome>
 ```
 
 ## Note
