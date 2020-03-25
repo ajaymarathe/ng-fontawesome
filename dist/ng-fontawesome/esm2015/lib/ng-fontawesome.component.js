@@ -1,9 +1,9 @@
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 import { Component, Input } from '@angular/core';
-export class NgFontAwesomeComponent {
+export class NgFontawesomeComponent {
     constructor() { }
     /**
      * @return {?}
@@ -11,27 +11,27 @@ export class NgFontAwesomeComponent {
     ngOnInit() {
     }
 }
-NgFontAwesomeComponent.decorators = [
+NgFontawesomeComponent.decorators = [
     { type: Component, args: [{
                 selector: 'ng-fontawesome',
-                template: "<i [ngClass]=\"'fa fa-'+icon\" [style.font-size.em]=\"size\" [style.color]=\"color\" aria-hidden=\"true\"></i>\r\n",
-                styles: [""]
+                template: `
+  <i [ngClass]="'fa fa-'+icon" [style.font-size.em]="size" [style.color]="color" aria-hidden="true"></i>
+  `
             }] }
 ];
 /** @nocollapse */
-NgFontAwesomeComponent.ctorParameters = () => [];
-NgFontAwesomeComponent.propDecorators = {
+NgFontawesomeComponent.ctorParameters = () => [];
+NgFontawesomeComponent.propDecorators = {
     icon: [{ type: Input }],
     size: [{ type: Input }],
     color: [{ type: Input }]
 };
 if (false) {
     /** @type {?} */
-    NgFontAwesomeComponent.prototype.icon;
+    NgFontawesomeComponent.prototype.icon;
     /** @type {?} */
-    NgFontAwesomeComponent.prototype.size;
+    NgFontawesomeComponent.prototype.size;
     /** @type {?} */
-    NgFontAwesomeComponent.prototype.color;
+    NgFontawesomeComponent.prototype.color;
 }
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmctZm9udGF3ZXNvbWUuY29tcG9uZW50LmpzIiwic291cmNlUm9vdCI6Im5nOi8vbmctZm9udGF3ZXNvbWUvIiwic291cmNlcyI6WyJsaWIvbmctZm9udGF3ZXNvbWUuY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFDQSxPQUFPLEVBQUUsU0FBUyxFQUFVLEtBQUssRUFBRSxNQUFNLGVBQWUsQ0FBQztBQU96RCxNQUFNO0lBTUosaUJBQWlCOzs7O0lBRWpCLFFBQVE7S0FDUDs7O1lBZEYsU0FBUyxTQUFDO2dCQUNULFFBQVEsRUFBRSxnQkFBZ0I7Z0JBQzFCLDhIQUE4Qzs7YUFFL0M7Ozs7O21CQUdFLEtBQUs7bUJBQ0wsS0FBSztvQkFDTCxLQUFLIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmltcG9ydCB7IENvbXBvbmVudCwgT25Jbml0LCBJbnB1dCB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xyXG5cclxuQENvbXBvbmVudCh7XHJcbiAgc2VsZWN0b3I6ICduZy1mb250YXdlc29tZScsXHJcbiAgdGVtcGxhdGVVcmw6ICcuL25nLWZvbnRhd2Vzb21lLmNvbXBvbmVudC5odG1sJyxcclxuICBzdHlsZVVybHM6IFsnLi9uZy1mb250YXdlc29tZS5jb21wb25lbnQuY3NzJ11cclxufSlcclxuZXhwb3J0IGNsYXNzIE5nRm9udEF3ZXNvbWVDb21wb25lbnQgaW1wbGVtZW50cyBPbkluaXQge1xyXG5cclxuICBASW5wdXQoKSBpY29uO1xyXG4gIEBJbnB1dCgpIHNpemU7XHJcbiAgQElucHV0KCkgY29sb3I7XHJcblxyXG4gIGNvbnN0cnVjdG9yKCkgeyB9XHJcblxyXG4gIG5nT25Jbml0KCkge1xyXG4gIH1cclxuXHJcblxyXG5cclxufVxyXG4iXX0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmctZm9udGF3ZXNvbWUuY29tcG9uZW50LmpzIiwic291cmNlUm9vdCI6Im5nOi8vbmctZm9udGF3ZXNvbWUvIiwic291cmNlcyI6WyJsaWIvbmctZm9udGF3ZXNvbWUuY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLEVBQUUsU0FBUyxFQUFVLEtBQUssRUFBRSxNQUFNLGVBQWUsQ0FBQztBQVN6RCxNQUFNLE9BQU8sc0JBQXNCO0lBRWpDLGdCQUFnQixDQUFDOzs7O0lBTWpCLFFBQVE7SUFDUixDQUFDOzs7WUFoQkYsU0FBUyxTQUFDO2dCQUNULFFBQVEsRUFBRSxnQkFBZ0I7Z0JBQzFCLFFBQVEsRUFBRTs7R0FFVDthQUVGOzs7OzttQkFLRSxLQUFLO21CQUNMLEtBQUs7b0JBQ0wsS0FBSzs7OztJQUZOLHNDQUFjOztJQUNkLHNDQUFjOztJQUNkLHVDQUFlIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tcG9uZW50LCBPbkluaXQsIElucHV0IH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBDb21wb25lbnQoe1xuICBzZWxlY3RvcjogJ25nLWZvbnRhd2Vzb21lJyxcbiAgdGVtcGxhdGU6IGBcbiAgPGkgW25nQ2xhc3NdPVwiJ2ZhIGZhLScraWNvblwiIFtzdHlsZS5mb250LXNpemUuZW1dPVwic2l6ZVwiIFtzdHlsZS5jb2xvcl09XCJjb2xvclwiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPjwvaT5cbiAgYCxcbiAgc3R5bGVzOiBbXVxufSlcbmV4cG9ydCBjbGFzcyBOZ0ZvbnRhd2Vzb21lQ29tcG9uZW50IGltcGxlbWVudHMgT25Jbml0IHtcblxuICBjb25zdHJ1Y3RvcigpIHsgfVxuXG4gIEBJbnB1dCgpIGljb247XG4gIEBJbnB1dCgpIHNpemU7XG4gIEBJbnB1dCgpIGNvbG9yO1xuXG4gIG5nT25Jbml0KCkge1xuICB9XG5cbn1cbiJdfQ==

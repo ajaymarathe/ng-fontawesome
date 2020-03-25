@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class NgFontAwesomeComponent {
+class NgFontawesomeComponent {
     constructor() { }
     /**
      * @return {?}
@@ -13,47 +13,55 @@ class NgFontAwesomeComponent {
     ngOnInit() {
     }
 }
-NgFontAwesomeComponent.decorators = [
+NgFontawesomeComponent.decorators = [
     { type: Component, args: [{
                 selector: 'ng-fontawesome',
-                template: "<i [ngClass]=\"'fa fa-'+icon\" [style.font-size.em]=\"size\" [style.color]=\"color\" aria-hidden=\"true\"></i>\r\n",
-                styles: [""]
+                template: `
+  <i [ngClass]="'fa fa-'+icon" [style.font-size.em]="size" [style.color]="color" aria-hidden="true"></i>
+  `
             }] }
 ];
 /** @nocollapse */
-NgFontAwesomeComponent.ctorParameters = () => [];
-NgFontAwesomeComponent.propDecorators = {
+NgFontawesomeComponent.ctorParameters = () => [];
+NgFontawesomeComponent.propDecorators = {
     icon: [{ type: Input }],
     size: [{ type: Input }],
     color: [{ type: Input }]
 };
+if (false) {
+    /** @type {?} */
+    NgFontawesomeComponent.prototype.icon;
+    /** @type {?} */
+    NgFontawesomeComponent.prototype.size;
+    /** @type {?} */
+    NgFontawesomeComponent.prototype.color;
+}
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class NgFontawesomeModule {
 }
 NgFontawesomeModule.decorators = [
     { type: NgModule, args: [{
+                declarations: [NgFontawesomeComponent],
                 imports: [
                     CommonModule
                 ],
-                declarations: [NgFontAwesomeComponent],
-                exports: [NgFontAwesomeComponent]
+                exports: [NgFontawesomeComponent]
             },] }
 ];
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { NgFontAwesomeComponent, NgFontawesomeModule };
-
+export { NgFontawesomeComponent, NgFontawesomeModule };
 //# sourceMappingURL=ng-fontawesome.js.map

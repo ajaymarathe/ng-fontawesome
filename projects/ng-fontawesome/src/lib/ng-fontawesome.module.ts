@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
-import { NgFontAwesomeComponent } from './ng-fontawesome.component';
+import { NgFontawesomeComponent } from './ng-fontawesome.component';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
+  declarations: [NgFontawesomeComponent],
   imports: [
     CommonModule
   ],
-  declarations: [NgFontAwesomeComponent],
-  exports: [NgFontAwesomeComponent]
+  exports: [NgFontawesomeComponent]
 })
 export class NgFontawesomeModule { }

@@ -3,50 +3,57 @@ import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-var NgFontAwesomeComponent = /** @class */ (function () {
-    function NgFontAwesomeComponent() {
+var NgFontawesomeComponent = /** @class */ (function () {
+    function NgFontawesomeComponent() {
     }
     /**
      * @return {?}
      */
-    NgFontAwesomeComponent.prototype.ngOnInit = /**
+    NgFontawesomeComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
     };
-    NgFontAwesomeComponent.decorators = [
+    NgFontawesomeComponent.decorators = [
         { type: Component, args: [{
                     selector: 'ng-fontawesome',
-                    template: "<i [ngClass]=\"'fa fa-'+icon\" [style.font-size.em]=\"size\" [style.color]=\"color\" aria-hidden=\"true\"></i>\r\n",
-                    styles: [""]
+                    template: "\n  <i [ngClass]=\"'fa fa-'+icon\" [style.font-size.em]=\"size\" [style.color]=\"color\" aria-hidden=\"true\"></i>\n  "
                 }] }
     ];
     /** @nocollapse */
-    NgFontAwesomeComponent.ctorParameters = function () { return []; };
-    NgFontAwesomeComponent.propDecorators = {
+    NgFontawesomeComponent.ctorParameters = function () { return []; };
+    NgFontawesomeComponent.propDecorators = {
         icon: [{ type: Input }],
         size: [{ type: Input }],
         color: [{ type: Input }]
     };
-    return NgFontAwesomeComponent;
+    return NgFontawesomeComponent;
 }());
+if (false) {
+    /** @type {?} */
+    NgFontawesomeComponent.prototype.icon;
+    /** @type {?} */
+    NgFontawesomeComponent.prototype.size;
+    /** @type {?} */
+    NgFontawesomeComponent.prototype.color;
+}
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var NgFontawesomeModule = /** @class */ (function () {
     function NgFontawesomeModule() {
     }
     NgFontawesomeModule.decorators = [
         { type: NgModule, args: [{
+                    declarations: [NgFontawesomeComponent],
                     imports: [
                         CommonModule
                     ],
-                    declarations: [NgFontAwesomeComponent],
-                    exports: [NgFontAwesomeComponent]
+                    exports: [NgFontawesomeComponent]
                 },] }
     ];
     return NgFontawesomeModule;
@@ -54,14 +61,13 @@ var NgFontawesomeModule = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { NgFontAwesomeComponent, NgFontawesomeModule };
-
+export { NgFontawesomeComponent, NgFontawesomeModule };
 //# sourceMappingURL=ng-fontawesome.js.map
