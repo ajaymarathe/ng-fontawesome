@@ -1,24 +1,69 @@
-# NgFontawesome
+# NG Fontawesome Icon
+🍺 NG Fontawesome Icon for Angular Lovers. Coded by [Bootcatch](http://bootcatch.com).
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+[![NPM](https://img.shields.io/npm/v/ng-fontawesome.svg)](https://www.npmjs.com/package/ng-fontawesome) 
+[![NPM](https://img.shields.io/npm/dt/ng-fontawesome.svg)](https://www.npmjs.com/package/ng-fontawesome) 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) 
 
-## Code scaffolding
+## Installation
+Using NPM:
+```
+npm i ng-fontawesome --save
 
-Run `ng generate component component-name --project ng-fontawesome` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng-fontawesome`.
-> Note: Don't forget to add `--project ng-fontawesome` or else it will be added to the default project in your `angular.json` file. 
+npm i font-awesome --save
+```
 
-## Build
+In your `styles.scss` file import font-awesome css
+```js
+/* You can add global styles to this file, and also import other style files */
+@import "font-awesome/css/font-awesome.min.css";
 
-Run `ng build ng-fontawesome` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
 
-## Publishing
+## Usage
+Import direct in your `app.module.ts` file:
+```js
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
 
-After building your library with `ng build ng-fontawesome`, go to the dist folder `cd dist/ng-fontawesome` and run `npm publish`.
+//import NgFontawesomeModule from ng-fontawesome
+import { NgFontawesomeModule } from 'ng-fontawesome';
 
-## Running unit tests
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    //import your NgFontawesomeModule here
+    NgFontawesomeModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
 
-Run `ng test ng-fontawesome` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Then use wherever you want !! Goodluck:
+```html
+  <ng-fontawesome icon="file" size="2" color="orange"></ng-fontawesome>
+```
 
-## Further help
+## Note
+[![ng-fontawesome](https://raw.githubusercontent.com/ajaymarathe/image-store/master/vue-fontawesome/img2.png)](https://github.com/ajaymarathe/ng-fontawesome)
+- *Add only name to icon, e.g `icon="file"`*
+- *No need to add full name like e.g `icon="fa fa-file"`*
+- ***icon** - font-awesome icon name will find here [here](https://fontawesome.com/v4.7.0/icons/)*
+- ***size** - icon size in `rem`.*
+- ***color** - you can give any valid value `e.g red, yellow, #fffff, #ff0000.`*
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Author
+
+Ajay Marathe
+
++ https://github.com/ajaymarathe
+
+## Copyright and License
+
+Copyright 2019 [Ajay Marathe](https://github.com/ajaymarathe). Code released under the [MIT](https://github.com/ajaymarathe/ng-fontawesome/blob/master/LICENSE) license.
