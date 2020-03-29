@@ -1,6 +1,6 @@
 {
-  "name": "ng-fontawesome",
-  "version": "0.0.4",
+  "name": "ng-fontawesome-icon",
+  "version": "0.0.6",
   "description": "🍺 NG Fontawesome Icon for Angular Lovers. Coded by Bootcatch.",
   "peerDependencies": {
     "@angular/common": "^8.0.3",

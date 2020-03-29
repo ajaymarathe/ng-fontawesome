@@ -28,7 +28,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 //import NgFontawesomeModule from ng-fontawesome
-import { NgFontawesomeModule } from 'ng-fontawesome';
+import { NgFontawesomeModule } from "ng-fontawesome-icon";
 
 @NgModule({
   declarations: [
