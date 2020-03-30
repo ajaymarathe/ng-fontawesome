@@ -1,14 +1,14 @@
 # NG Fontawesome Icon
 🍺 NG Fontawesome Icon for Angular Lovers. Coded by [Bootcatch](http://bootcatch.com).
 
-[![NPM](https://img.shields.io/npm/v/ng-fontawesome.svg)](https://www.npmjs.com/package/ng-fontawesome) 
-[![NPM](https://img.shields.io/npm/dt/ng-fontawesome.svg)](https://www.npmjs.com/package/ng-fontawesome) 
+[![NPM](https://img.shields.io/npm/v/ng-fontawesome-icon.svg)](https://www.npmjs.com/package/ng-fontawesome) 
+[![NPM](https://img.shields.io/npm/dt/ng-fontawesome-icon.svg)](https://www.npmjs.com/package/ng-fontawesome) 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) 
 
 ## Installation
 Using NPM:
 ```
-npm i ng-fontawesome --save
+npm i ng-fontawesome-icon --save
 
 npm i font-awesome --save
 ```
